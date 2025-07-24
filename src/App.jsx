@@ -23,7 +23,6 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
-          {/* Add more routes as needed */}
         </Routes>
       </div>
     </Router>
