@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Splash from "../components/Splash.jsx";
-import Navbar from "../components/Navbarhome";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Products from "../components/Products";
-import Edge from "../components/Edge";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbarhome.jsx";
+import Hero from "../components/Hero.jsx";
+import About from "../components/About.jsx";
+import Products from "../components/Products.jsx";
+import Edge from "../components/Edge.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
