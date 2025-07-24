@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@media print {
+    #download-share,
+    #get-in-touch {
+      display: none !important;
+    }
+    /* Keep the rest visible */
+    #brochure-content, #brochure-content * {
+      visibility: visible;
+    }
+    body * {
+      visibility: hidden;
+      font-size: medium;
+    }
+    #brochure-content {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+  .perspective {
+    perspective: 100px;
+  }
+  
+
+  .carousel-scene {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1200px;
+    overflow: hidden;
+  }
+  
+  .carousel-ring {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .carousel-card {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    background: #8e959f;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    backface-visibility: hidden;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  
