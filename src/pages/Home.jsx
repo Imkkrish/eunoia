@@ -5,7 +5,7 @@ import Hero from "../components/Hero.jsx";
 import About from "../components/About.jsx";
 import Products from "../components/Products.jsx";
 import Edge from "../components/Edge.jsx";
-import Footer from "../components/Footer.jsx";
+import Footer from "../components/FooterHome.jsx";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

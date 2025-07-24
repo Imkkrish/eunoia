@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/FooterHome";
+import Footer from "../components/Footer";
 export default function Career() {
   const [formData, setFormData] = useState({
     name: "",

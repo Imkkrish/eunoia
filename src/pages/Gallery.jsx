@@ -1,6 +1,6 @@
 import {} from 'react';
 import Navbar from '../components/Navbar.jsx';
-import Footer from '../components/FooterHome.jsx';
+import Footer from '../components/Footer.jsx';
 export default function Gallery() {
     return(
         <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300">
