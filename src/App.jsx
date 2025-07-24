@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 // Pages
-import Home from "./pages/Home";
-import Aquascaner from "./pages/brochure/Aquascaner";
-import AboutUs from "./pages/AboutUs";
-import NewsEvents from "./pages/NewsEvents";
-import Gallery from "./pages/Gallery";
-import Career from "./pages/Careers";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home.jsx";
+import Aquascaner from "./pages/brochure/Aquascaner.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
+import NewsEvents from "./pages/NewsEvents.jsx";
+import Gallery from "./pages/Gallery.jsx";
+import Career from "./pages/Careers.jsx";
+import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <Router>
