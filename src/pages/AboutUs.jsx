@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import Footer from "../components/Footer.jsx";
+import Footer from "../components/FooterHome.jsx";
 import Navbar from "../components/Navbar";
 const teamMembers = [
     {

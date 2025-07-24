@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Splash from "../components/Splash.jsx";
-import Navbar from "../components/Navbarhome.jsx";
+import Navbar from "../components/NavbarHome.jsx";
 import Hero from "../components/Hero.jsx";
 import About from "../components/About.jsx";
 import Products from "../components/Products.jsx";
