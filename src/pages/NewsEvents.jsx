@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../components/NavBar.jsx';
 import Footer from '../components/Footer.jsx';
 // --- Helper: SVG Icons for better UI ---
 const ChevronLeftIcon = () => (

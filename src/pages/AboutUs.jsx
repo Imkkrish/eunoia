@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import Footer from "../components/Footer.jsx";
-import Navbar from "../components/Navbar.jsx";
+import Navbar from "../components/NavBar.jsx";
 const teamMembers = [
     {
       name: "Alankar Achadian",

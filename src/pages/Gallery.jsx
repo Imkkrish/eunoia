@@ -1,5 +1,5 @@
 import {} from 'react';
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../components/NavBar.jsx';
 import Footer from '../components/Footer.jsx';
 export default function Gallery() {
     return(
