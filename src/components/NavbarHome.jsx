@@ -13,9 +13,9 @@ const navItems = [
   },
   { name: "About Us", path: "/about" },
   { name: "News & Events", path: "/news-events" },
-  { name: "Gallery", path: "#gallery" },
-  { name: "Careers", path: "#careers" },
-  { name: "Contact Us", path: "#contact-us" },
+  { name: "Gallery", path: "/gallery" },
+  { name: "Careers", path: "/careers" },
+  { name: "Contact Us", path: "/contact-us" },
 ];
 
 export default function Navbar() {
