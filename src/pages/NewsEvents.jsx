@@ -107,57 +107,6 @@ export default function App() {
 
   return (
     <>
-      {/* This style block contains the necessary CSS for the 3D carousel effect */}
-      <style>{`
-        .carousel-scene {
-          perspective: 1200px; /* Creates the 3D space */
-          transform-style: preserve-3d;
-          height: 400px;
-          width: 100%;
-          position: relative;
-        }
-        .carousel-ring {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          transform-style: preserve-3d;
-          transition: transform 1s cubic-bezier(0.77, 0, 0.175, 1); /* Smoother transition */
-        }
-        .carousel-card {
-          position: absolute;
-          width: 320px;
-          height: 240px;
-          left: 50%;
-          top: 50%;
-          margin-left: -160px; /* Half of width */
-          margin-top: -120px; /* Half of height */
-          backface-visibility: hidden; /* Hide the back of cards when they rotate */
-          transition: transform 0.5s ease, opacity 0.5s ease;
-          opacity: 0.9;
-        }
-        .carousel-card:not(.is-active) {
-            opacity: 0.7;
-            transform: scale(0.9);
-        }
-        .carousel-card.is-active {
-            opacity: 1;
-            transform: scale(1.05); /* Make active card slightly larger */
-        }
-        /* Responsive adjustments for the carousel radius */
-        @media (max-width: 768px) {
-            .carousel-scene {
-                perspective: 800px;
-                height: 300px;
-            }
-            .carousel-card {
-                width: 240px;
-                height: 180px;
-                margin-left: -120px;
-                margin-top: -90px;
-            }
-        }
-      `}</style>
-
       <div className="min-h-screen bg-gray-100 font-sans text-gray-800 overflow-x-hidden">
         <div className="absolute top-0 left-0  z-0"></div>
         <div className="relative z-10">
@@ -257,19 +206,7 @@ export default function App() {
           <Footer />
         </div>
       </div>
-      {/* Keyframe animations for modal */}
-      <style jsx global>{`
-        @keyframes fade-in {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes scale-in {
-            from { transform: scale(0.95); opacity: 0; }
-            to { transform: scale(1); opacity: 1; }
-        }
-        .animate-fade-in { animation: fade-in 0.3s ease-out forwards; }
-        .animate-scale-in { animation: scale-in 0.3s ease-out forwards; }
-      `}</style>
+
     </>
   );
 }
